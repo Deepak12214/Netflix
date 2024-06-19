@@ -18,16 +18,16 @@ eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmYjNlMGNjY2FmMjlkOWZlNGRkZTdiY2JmMGZhYzJjNyIsInN
 <!--
 hover effect
 hosting key safe in .env --done☑️
-fetching data  arrange
-tailer on movies info
-thodha difference
+fetching data  arrange  --done☑️
+-- next page when the user click on trail its show--tailer on movies info  
+thodha difference --done☑️
 responsive
 shimar ui
 member ship - data / payment page 
 // tv show - trailer 
 // --- when user click on  "watch with  prime" if  they are meber its show a page inb whitch tailer are watch and some content aside or botton on it
-
-
+ -- wishlist feature
+--pagenation/ unlimites scrolling 
 -- categories or generse page or in header  or show that type of movies
 
-
+-->

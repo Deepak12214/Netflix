@@ -7,6 +7,10 @@ import { auth } from '../utils/firebase'
 import {useDispatch } from "react-redux"
 import { addUser, removeUser } from '../utils/userSlice'
 import MoviesInfo from './MoviesInfo'
+import VideoPage from './VideoPage'
+import Details from './Details'
+import Similar from './Similar'
+import Recommended from './Recommended'
 
 const Body = () => {
   const dispatch = useDispatch();
@@ -22,6 +26,24 @@ const Body = () => {
     {
       path:"/MoviesInfo/:resId",
       element:<MoviesInfo/>
+    },
+    {
+      path:"/Video/:resId",
+      element:<VideoPage/>,
+      children: [
+        {
+          path: "Detail",
+          element: <Details />
+        },
+        {
+          path: "Similar",
+          element: <Similar />
+        },
+        {
+          path: "Recommended",
+          element: <Recommended />
+        }
+      ]
     },
   ])
   return (
